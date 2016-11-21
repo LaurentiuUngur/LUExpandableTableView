@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:LUExpandableTableView.xcodeproj">
+      location = "group:LUExpandableTableViewExample/LUExpandableTableViewExample.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:LUExpandableTableViewExample/LUExpandableTableViewExample.xcodeproj">
+      location = "group:LUExpandableTableView.xcodeproj">
    </FileRef>
 </Workspace>
