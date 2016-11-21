@@ -12,9 +12,13 @@
 		CF0902691DE38E1900C7C70A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0902671DE38E1900C7C70A /* Main.storyboard */; };
 		CF09026B1DE38E1900C7C70A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF09026A1DE38E1900C7C70A /* Assets.xcassets */; };
 		CF09026E1DE38E1900C7C70A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF09026C1DE38E1900C7C70A /* LaunchScreen.storyboard */; };
+		DF6AD8559F68E2C86B220B36 /* Pods_LUExpandableTableViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1585201ED8A480F8308237 /* Pods_LUExpandableTableViewExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		192201ECDEE67E6171FA4DF6 /* Pods-LUExpandableTableViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LUExpandableTableViewExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-LUExpandableTableViewExample/Pods-LUExpandableTableViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		3A1585201ED8A480F8308237 /* Pods_LUExpandableTableViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LUExpandableTableViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5754D783043338E6400977E9 /* Pods-LUExpandableTableViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LUExpandableTableViewExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LUExpandableTableViewExample/Pods-LUExpandableTableViewExample.debug.xcconfig"; sourceTree = "<group>"; };
 		CF0902601DE38E1900C7C70A /* LUExpandableTableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LUExpandableTableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF0902631DE38E1900C7C70A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF0902651DE38E1900C7C70A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF6AD8559F68E2C86B220B36 /* Pods_LUExpandableTableViewExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44084B91F48BABEBD1BAA909 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5754D783043338E6400977E9 /* Pods-LUExpandableTableViewExample.debug.xcconfig */,
+				192201ECDEE67E6171FA4DF6 /* Pods-LUExpandableTableViewExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5EB8C28285EE8A685B014746 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A1585201ED8A480F8308237 /* Pods_LUExpandableTableViewExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CF0902571DE38E1900C7C70A = {
 			isa = PBXGroup;
 			children = (
 				CF0902621DE38E1900C7C70A /* LUExpandableTableViewExample */,
 				CF0902611DE38E1900C7C70A /* Products */,
+				44084B91F48BABEBD1BAA909 /* Pods */,
+				5EB8C28285EE8A685B014746 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF0902721DE38E1900C7C70A /* Build configuration list for PBXNativeTarget "LUExpandableTableViewExample" */;
 			buildPhases = (
+				8B4A85699DE368115718C267 /* [CP] Check Pods Manifest.lock */,
 				CF09025C1DE38E1900C7C70A /* Sources */,
 				CF09025D1DE38E1900C7C70A /* Frameworks */,
 				CF09025E1DE38E1900C7C70A /* Resources */,
+				7445E7608F18A2415A68977B /* [CP] Embed Pods Frameworks */,
+				CA890B4AFB267BD2B3D8BF7A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7445E7608F18A2415A68977B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LUExpandableTableViewExample/Pods-LUExpandableTableViewExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B4A85699DE368115718C267 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA890B4AFB267BD2B3D8BF7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LUExpandableTableViewExample/Pods-LUExpandableTableViewExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CF09025C1DE38E1900C7C70A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -181,6 +256,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -231,6 +307,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -258,6 +335,7 @@
 		};
 		CF0902731DE38E1900C7C70A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5754D783043338E6400977E9 /* Pods-LUExpandableTableViewExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LUExpandableTableViewExample/Info.plist;
@@ -271,6 +349,7 @@
 		};
 		CF0902741DE38E1900C7C70A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 192201ECDEE67E6171FA4DF6 /* Pods-LUExpandableTableViewExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LUExpandableTableViewExample/Info.plist;
@@ -301,6 +380,7 @@
 				CF0902741DE38E1900C7C70A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

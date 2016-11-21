@@ -7,4 +7,7 @@
    <FileRef
       location = "group:LUExpandableTableView.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:LUExpandableTableViewExample/Pods/Pods.xcodeproj">
+   </FileRef>
 </Workspace>
