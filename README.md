@@ -10,6 +10,10 @@ A subclass of `UITableView` with expandable and collapsible sections
 [![Pod Platform](http://img.shields.io/cocoapods/p/LUExpandableTableView.svg?style=flat)](http://cocoadocs.org/docsets/LUExpandableTableView/)
 [![Pod License](http://img.shields.io/cocoapods/l/LUExpandableTableView.svg?style=flat)](https://opensource.org/licenses/MIT)
 
+## Preview
+
+![](Preview.gif)
+
 ## Installation
 
 ### CocoaPods
