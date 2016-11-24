@@ -12,6 +12,9 @@
 		CF0902691DE38E1900C7C70A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0902671DE38E1900C7C70A /* Main.storyboard */; };
 		CF09026B1DE38E1900C7C70A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF09026A1DE38E1900C7C70A /* Assets.xcassets */; };
 		CF09026E1DE38E1900C7C70A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF09026C1DE38E1900C7C70A /* LaunchScreen.storyboard */; };
+		CFD90F981DE782CB00D886F0 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD90F971DE782CB00D886F0 /* MyTableViewCell.swift */; };
+		CFD90F9A1DE783DD00D886F0 /* MyExpandableTableViewSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD90F991DE783DD00D886F0 /* MyExpandableTableViewSectionHeader.swift */; };
+		CFD90F9C1DE7843600D886F0 /* MyExpandableTableViewSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFD90F9B1DE7843600D886F0 /* MyExpandableTableViewSectionHeader.xib */; };
 		DF6AD8559F68E2C86B220B36 /* Pods_LUExpandableTableViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1585201ED8A480F8308237 /* Pods_LUExpandableTableViewExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +29,9 @@
 		CF09026A1DE38E1900C7C70A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF09026D1DE38E1900C7C70A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF09026F1DE38E1900C7C70A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD90F971DE782CB00D886F0 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		CFD90F991DE783DD00D886F0 /* MyExpandableTableViewSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyExpandableTableViewSectionHeader.swift; sourceTree = "<group>"; };
+		CFD90F9B1DE7843600D886F0 /* MyExpandableTableViewSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyExpandableTableViewSectionHeader.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +66,10 @@
 		CF0902571DE38E1900C7C70A = {
 			isa = PBXGroup;
 			children = (
-				CF0902621DE38E1900C7C70A /* LUExpandableTableViewExample */,
-				CF0902611DE38E1900C7C70A /* Products */,
-				44084B91F48BABEBD1BAA909 /* Pods */,
 				5EB8C28285EE8A685B014746 /* Frameworks */,
+				CF0902621DE38E1900C7C70A /* LUExpandableTableViewExample */,
+				44084B91F48BABEBD1BAA909 /* Pods */,
+				CF0902611DE38E1900C7C70A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,11 +85,14 @@
 			isa = PBXGroup;
 			children = (
 				CF0902631DE38E1900C7C70A /* AppDelegate.swift */,
-				CF0902651DE38E1900C7C70A /* ViewController.swift */,
-				CF0902671DE38E1900C7C70A /* Main.storyboard */,
 				CF09026A1DE38E1900C7C70A /* Assets.xcassets */,
-				CF09026C1DE38E1900C7C70A /* LaunchScreen.storyboard */,
 				CF09026F1DE38E1900C7C70A /* Info.plist */,
+				CF09026C1DE38E1900C7C70A /* LaunchScreen.storyboard */,
+				CF0902671DE38E1900C7C70A /* Main.storyboard */,
+				CFD90F991DE783DD00D886F0 /* MyExpandableTableViewSectionHeader.swift */,
+				CFD90F9B1DE7843600D886F0 /* MyExpandableTableViewSectionHeader.xib */,
+				CFD90F971DE782CB00D886F0 /* MyTableViewCell.swift */,
+				CF0902651DE38E1900C7C70A /* ViewController.swift */,
 			);
 			path = LUExpandableTableViewExample;
 			sourceTree = "<group>";
@@ -150,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD90F9C1DE7843600D886F0 /* MyExpandableTableViewSectionHeader.xib in Resources */,
 				CF09026E1DE38E1900C7C70A /* LaunchScreen.storyboard in Resources */,
 				CF09026B1DE38E1900C7C70A /* Assets.xcassets in Resources */,
 				CF0902691DE38E1900C7C70A /* Main.storyboard in Resources */,
@@ -213,6 +223,8 @@
 			files = (
 				CF0902661DE38E1900C7C70A /* ViewController.swift in Sources */,
 				CF0902641DE38E1900C7C70A /* AppDelegate.swift in Sources */,
+				CFD90F9A1DE783DD00D886F0 /* MyExpandableTableViewSectionHeader.swift in Sources */,
+				CFD90F981DE782CB00D886F0 /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

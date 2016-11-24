@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16C48b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MyExpandableTableViewSectionHeader" customModule="LUExpandableTableViewExample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="443" height="96"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ru-AR-pwS">
+                    <rect key="frame" x="0.0" y="0.0" width="443" height="96"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Uo-kY-wQ1">
+                            <rect key="frame" x="10" y="0.0" width="348" height="96"/>
+                            <gestureRecognizers/>
+                            <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="19"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MxD-LI-l9Y">
+                            <rect key="frame" x="368" y="0.0" width="65" height="96"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="65" id="eO8-qH-cWO"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="expandCollapse:" destination="iN0-l3-epB" eventType="touchUpInside" id="fxP-cZ-vPP"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstItem="4Uo-kY-wQ1" firstAttribute="leading" secondItem="7ru-AR-pwS" secondAttribute="leading" constant="10" id="3kD-VC-Df0"/>
+                        <constraint firstAttribute="bottom" secondItem="4Uo-kY-wQ1" secondAttribute="bottom" id="V7i-mb-dZL"/>
+                        <constraint firstAttribute="bottom" secondItem="MxD-LI-l9Y" secondAttribute="bottom" id="Yz1-hr-rCp"/>
+                        <constraint firstItem="4Uo-kY-wQ1" firstAttribute="top" secondItem="7ru-AR-pwS" secondAttribute="top" id="cC9-s5-TLh"/>
+                        <constraint firstAttribute="trailing" secondItem="MxD-LI-l9Y" secondAttribute="trailing" constant="10" id="nvC-91-AgG"/>
+                        <constraint firstItem="MxD-LI-l9Y" firstAttribute="leading" relation="lessThanOrEqual" secondItem="4Uo-kY-wQ1" secondAttribute="trailing" constant="10" id="pT1-dM-q1f"/>
+                        <constraint firstItem="MxD-LI-l9Y" firstAttribute="top" secondItem="7ru-AR-pwS" secondAttribute="top" id="y1R-oe-toL"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="7ru-AR-pwS" secondAttribute="bottom" id="YTb-eb-8HZ"/>
+                <constraint firstItem="7ru-AR-pwS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="gxJ-OA-jWB"/>
+                <constraint firstAttribute="trailing" secondItem="7ru-AR-pwS" secondAttribute="trailing" id="puY-fd-tJb"/>
+                <constraint firstItem="7ru-AR-pwS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="uj5-0y-563"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="expandCollapseButton" destination="MxD-LI-l9Y" id="rXv-ek-UI5"/>
+                <outlet property="label" destination="4Uo-kY-wQ1" id="vkQ-eI-0q9"/>
+            </connections>
+            <point key="canvasLocation" x="39.5" y="-213"/>
+        </view>
+    </objects>
+</document>
