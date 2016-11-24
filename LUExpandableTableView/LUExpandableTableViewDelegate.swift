@@ -15,6 +15,8 @@ public protocol LUExpandableTableViewDelegate: class {
         - expandableTableView: The expandable table view object requesting this information
         - indexPath: An index path that locates a row in `expandableTableView`
      
+    - Warning: Returning `UITableViewAutomaticDimension` value on iOS 9 will cause reloading all cells due to an iOS 9 bug with automatic dimensions
+     
     - Returns: A nonnegative floating-point value that specifies the height (in points) that row should be
     */
     func expandableTableView(_ expandableTableView: LUExpandableTableView, heightForRowAt indexPath: IndexPath) -> CGFloat
@@ -25,6 +27,8 @@ public protocol LUExpandableTableViewDelegate: class {
         - expandableTableView: The expandable table view object requesting this information
         - section: An index number identifying a section of `expandableTableView`
      
+    - Warning: Returning `UITableViewAutomaticDimension` value on iOS 9 will cause reloading all cells due to an iOS 9 bug with automatic dimensions
+
     - Returns: A nonnegative floating-point value that specifies the height (in points) of the header for `section`
     */
     func expandableTableView(_ expandableTableView: LUExpandableTableView, heightForHeaderInSection section: Int) -> CGFloat

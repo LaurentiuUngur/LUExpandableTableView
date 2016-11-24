@@ -15,22 +15,7 @@ open class LUExpandableTableView: UITableView {
     /// The object that acts as the data source of the expandable table view
     public weak var expandableTableViewDataSource: LUExpandableTableViewDataSource?
     /// The object that acts as the delegate of the expandable table view
-    public weak var expandableTableViewDelegate: LUExpandableTableViewDelegate? {
-        willSet {
-            guard isIOS10OrLater else {
-                return
-            }
-            
-            guard let _ = newValue else {
-                estimatedRowHeight = 60
-                estimatedSectionHeaderHeight = 60
-                return
-            }
-            
-            estimatedRowHeight = 0
-            estimatedSectionHeaderHeight = 0
-        }
-    }
+    public weak var expandableTableViewDelegate: LUExpandableTableViewDelegate?
     
     open override var dataSource: UITableViewDataSource? {
         willSet {
@@ -56,34 +41,8 @@ open class LUExpandableTableView: UITableView {
         }
     }
     
-    open override var estimatedRowHeight: CGFloat {
-        willSet {
-            if isIOS9 {
-                print("WARNING: Setting this on iOS 9, will cause reloading all cells due to some bug in iOS 9 with automatic dimension. Return a value different than `UITableViewAutomaticDimension` in `expandableTableView(_ expandableTableView: , heightForRowAt:) delegate function")
-            }
-        }
-    }
-    
-    open override var estimatedSectionHeaderHeight: CGFloat {
-        willSet {
-            if isIOS9 {
-                print("WARNING: Setting this on iOS 9, will cause reloading all cells due to some bug in iOS 9 with automatic dimension. Return a value different than `UITableViewAutomaticDimension` in `expandableTableView(_ expandableTableView: , heightForHeaderInSection:) delegate function")
-            }
-        }
-    }
-    
     /// A set that contains the sections that are expanded
     fileprivate var expandedSections = Set<Int>()
-    
-    /// Check if iOS version is 10 or greater
-    private var isIOS10OrLater: Bool {
-        return ProcessInfo.processInfo.operatingSystemVersion.majorVersion >= 10
-    }
-    
-    /// Check if iOS version is 9
-    private var isIOS9: Bool {
-        return ProcessInfo.processInfo.operatingSystemVersion.majorVersion == 9
-    }
     
     // MARK: - Init
     
@@ -103,12 +62,10 @@ open class LUExpandableTableView: UITableView {
         delegate = self
         dataSource = self
         
-        if isIOS10OrLater {
-            rowHeight = UITableViewAutomaticDimension
-            estimatedRowHeight = 60
-            sectionHeaderHeight = UITableViewAutomaticDimension
-            estimatedSectionHeaderHeight = 60
-        }
+        rowHeight = UITableViewAutomaticDimension
+        estimatedRowHeight = 60
+        sectionHeaderHeight = UITableViewAutomaticDimension
+        estimatedSectionHeaderHeight = 60
     }
 }
 
