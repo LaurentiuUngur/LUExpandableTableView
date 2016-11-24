@@ -1,0 +1,29 @@
+# Before Script
+before_script:
+    - export LC_CTYPE=en_US.UTF-8
+    - export LANG=en_US.UTF-8
+    - env
+    - locale
+    - pod --version
+    - pod setup --silent
+    - pod repo update --silent
+    - xcpretty --version
+    - xcodebuild -version
+    - xcodebuild -showsdks
+
+stages:
+    - build
+
+Build:
+  stage: build
+  script:
+    - set -o pipefail
+    - echo Check if the library described by the podspec can be built
+    - pod lib lint
+    - echo Build the library
+    - xcodebuild clean build -workspace LUExpandableTableView.xcworkspace -scheme LUExpandableTableView -sdk iphonesimulator PLATFORM_NAME=iphonesimulator -configuration Debug | xcpretty -c
+    - echo Build the example
+    - pod install --project-directory=LUExpandableTableViewExample
+    - xcodebuild clean build -workspace LUExpandableTableView.xcworkspace -scheme LUExpandableTableViewExample -sdk iphonesimulator PLATFORM_NAME=iphonesimulator -configuration Debug | xcpretty -c
+  tags:
+    - ios
