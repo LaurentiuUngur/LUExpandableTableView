@@ -68,7 +68,6 @@ extension ViewController: LUExpandableTableViewDataSource {
         }
         
         sectionHeader.label.text = "Section \(section)"
-        print(sectionHeader.label.text)
         
         return sectionHeader
     }
