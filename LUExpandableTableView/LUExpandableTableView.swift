@@ -17,6 +17,9 @@ open class LUExpandableTableView: UITableView {
     /// The object that acts as the delegate of the expandable table view
     public weak var expandableTableViewDelegate: LUExpandableTableViewDelegate?
     
+    /// The `UITableViewRowAnimation` animation used for showing/hiding rows when expand/collapse occurs. Default value is `fade`
+    public var animation: UITableViewRowAnimation = .fade
+    
     open override var dataSource: UITableViewDataSource? {
         willSet {
             guard let newValue = newValue else {
@@ -109,11 +112,7 @@ extension LUExpandableTableView: UITableViewDelegate {
 
 extension LUExpandableTableView: UITableViewDataSource {
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        guard expandedSections.contains(section) else {
-            return 0
-        }
-        
-        return expandableTableViewDataSource?.expandableTableView(self, numberOfRowsInSection: section) ?? 0
+        return expandedSections.contains(section) ? (expandableTableViewDataSource?.expandableTableView(self, numberOfRowsInSection: section) ?? 0) : 0
     }
     
     public func numberOfSections(in tableView: UITableView) -> Int {
@@ -136,7 +135,7 @@ extension LUExpandableTableView: LUExpandableTableViewSectionHeaderDelegate {
         }
         
         beginUpdates()
-        reloadSections(IndexSet(integer: section), with: .fade)
+        reloadSections(IndexSet(integer: section), with: animation)
         endUpdates()
         
         let sectionHeaderRect = rectForHeader(inSection: section)
