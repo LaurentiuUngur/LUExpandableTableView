@@ -20,6 +20,10 @@ open class LUExpandableTableView: UITableView {
     /// The `UITableViewRowAnimation` animation used for showing/hiding rows when expand/collapse occurs. Default value is `fade`
     public var animation: UITableViewRowAnimation = .fade
     
+    /** The object that acts as the data source of the table view.
+     
+    - Precondition: `expandableTableViewDataSource` should be used in order to configure data source
+    */
     open override var dataSource: UITableViewDataSource? {
         willSet {
             guard let newValue = newValue else {
@@ -27,11 +31,15 @@ open class LUExpandableTableView: UITableView {
             }
             
             guard newValue is LUExpandableTableView else {
-                preconditionFailure("\(newValue.self) shouldn't be set as data source. You must use expandableTableViewDataSource property instead of dataSource")
+                preconditionFailure("You must use expandableTableViewDataSource property instead of dataSource property in order to set \(newValue.self) as data source")
             }
         }
     }
     
+    /** The object that acts as the delegate of the table view.
+     
+    - Precondition: `expandableTableViewDelegate` should be used in order to configure delegate
+    */
     open override var delegate: UITableViewDelegate? {
         willSet {
             guard let newValue = newValue else {
@@ -39,7 +47,7 @@ open class LUExpandableTableView: UITableView {
             }
             
             guard newValue is LUExpandableTableView else {
-                preconditionFailure("\(newValue.self) shouldn't be set as delegate. You must use expandableTableViewDelegate property instead of delegate")
+                preconditionFailure("You must use expandableTableViewDelegate property instead of delegate property in order to set \(newValue.self) as delegate")
             }
         }
     }
@@ -49,18 +57,32 @@ open class LUExpandableTableView: UITableView {
     
     // MARK: - Init
     
+    /** Initializes and returns a table view object having the given frame and style.
+     
+    - Parameters:
+        - frame: A rectangle specifying the initial location and size of the table view in its superview’s coordinates. The frame of the table view changes as table cells are added and deleted.
+        - style: A constant that specifies the style of the table view. See `UITableViewStyle` for descriptions of valid constants.
+     
+    - Returns: Returns an initialized `UITableView` object, or `nil` if the object could not be successfully initialized.
+    */
     override init(frame: CGRect, style: UITableViewStyle) {
         super.init(frame: frame, style: style)
         
         commonInit()
     }
     
+    /** Returns an object initialized from data in a given unarchiver.
+     
+    - Parameter coder: An unarchiver object.
+    - Retunrs: `self`, initialized using the data in *decoder*.
+    */
     public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         commonInit()
     }
     
+    /// Private common initializer
     private func commonInit() {
         delegate = self
         dataSource = self

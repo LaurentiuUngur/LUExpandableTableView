@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// The delegate of a `LUExpandableTableView` object must adopt the `LUExpandableTableViewDelegate` protocol.
 public protocol LUExpandableTableViewDelegate: class {
     /** Asks the delegate for the height to use for a row in a specified location
     
