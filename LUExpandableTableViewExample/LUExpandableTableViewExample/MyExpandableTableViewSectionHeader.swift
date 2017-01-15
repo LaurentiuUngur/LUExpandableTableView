@@ -18,7 +18,7 @@ final class MyExpandableTableViewSectionHeader: LUExpandableTableViewSectionHead
     override var isExpanded: Bool {
         didSet {
             // Change the title of the button when section header expand/collapse
-            expandCollapseButton.setTitle(isExpanded ? "Collapse" : "Expand", for: .normal)
+            expandCollapseButton?.setTitle(isExpanded ? "Collapse" : "Expand", for: .normal)
         }
     }
     
@@ -27,8 +27,8 @@ final class MyExpandableTableViewSectionHeader: LUExpandableTableViewSectionHead
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        label.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(didTapOnLabel)))
-        label.isUserInteractionEnabled = true
+        label?.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(didTapOnLabel)))
+        label?.isUserInteractionEnabled = true
     }
     
     // MARK: - IBActions

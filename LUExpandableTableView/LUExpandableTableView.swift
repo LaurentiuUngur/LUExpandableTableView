@@ -92,6 +92,17 @@ open class LUExpandableTableView: UITableView {
         sectionHeaderHeight = UITableViewAutomaticDimension
         estimatedSectionHeaderHeight = 60
     }
+    
+    // MARK: - Public Functions
+    
+    /** A function that determines whether the section at given index is expanded.
+     
+    - Parameter index: An index number identifying a section of tableView
+    - Returns: `true` if the section at given index is expanded, otherwise `false`
+    */
+    public func isExpandedSection(at index: Int) -> Bool {
+        return expandedSections.contains(index)
+    }
 }
 
 // MARK: - UITableViewDelegate
