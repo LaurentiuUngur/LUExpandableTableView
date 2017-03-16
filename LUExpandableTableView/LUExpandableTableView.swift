@@ -65,7 +65,7 @@ open class LUExpandableTableView: UITableView {
      
     - Returns: Returns an initialized `UITableView` object, or `nil` if the object could not be successfully initialized.
     */
-    override init(frame: CGRect, style: UITableViewStyle) {
+    public override init(frame: CGRect, style: UITableViewStyle) {
         super.init(frame: frame, style: style)
         
         commonInit()
