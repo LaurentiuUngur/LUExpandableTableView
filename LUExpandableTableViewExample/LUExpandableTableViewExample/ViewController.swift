@@ -93,7 +93,7 @@ extension ViewController: LUExpandableTableViewDelegate {
     }
     
     func expandableTableView(_ expandableTableView: LUExpandableTableView, didSelectSectionHeader sectionHeader: LUExpandableTableViewSectionHeader, atSection section: Int) {
-        print("Did select cection header at section \(section)")
+        print("Did select section header at section \(section)")
     }
     
     func expandableTableView(_ expandableTableView: LUExpandableTableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
