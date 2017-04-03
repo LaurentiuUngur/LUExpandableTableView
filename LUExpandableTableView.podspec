@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "LUExpandableTableView"
   s.version      = "1.0.3"
   s.summary      = "A subclass of `UITableView` with expandable and collapsible sections"
-  s.description  =  "A subclass of `UITableView` with expandable and collapsible sections that is easy to use and highly customisable"
+  s.description  = "A subclass of `UITableView` with expandable and collapsible sections that is easy to use and highly customisable"
 
   s.homepage     = "https://github.com/LaurentiuUngur/LUExpandableTableView"
   s.license      = { :type => "MIT", :file => "LICENSE" }
