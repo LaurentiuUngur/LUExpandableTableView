@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.platform     = :ios, "9.0"
   
-  s.source_files   = "LUExpandableTableView/*.{swift}"
+  s.source_files   = "Sources/*.{swift}"
   s.preserve_paths = "README*"
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
 end

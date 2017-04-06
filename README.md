@@ -43,6 +43,24 @@ Then, run the following command:
 ```bash
 $ pod install
 ```
+### Swift Package Manager
+
+To integrate using Apple's [Swift Package Manager](https://swift.org/package-manager), add the following as a dependency to your `Package.swift`:
+
+```Swift
+.Package(url: "https://github.com/LaurentiuUngur/LUExpandableTableView", majorVersion: 2)
+```
+
+Here's an example of `PackageDescription`:
+
+```Swift
+import PackageDescription
+
+let package = Package(name: "MyApp",
+    dependencies: [
+        .Package(url: "https://github.com/LaurentiuUngur/LUExpandableTableView", majorVersion: 2)
+    ])
+```
 
 ### Manually
 
