@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF4B9F661DE0DAA70021B9E1 /* LUExpandableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4B9F651DE0DAA70021B9E1 /* LUExpandableTableView.swift */; };
-		CF4B9F681DE0DB1C0021B9E1 /* LUExpandableTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4B9F671DE0DB1C0021B9E1 /* LUExpandableTableViewDelegate.swift */; };
-		CF4B9F6A1DE0DB3B0021B9E1 /* LUExpandableTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4B9F691DE0DB3B0021B9E1 /* LUExpandableTableViewDataSource.swift */; };
-		CF4B9F6C1DE0DC010021B9E1 /* LUExpandableTableViewSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4B9F6B1DE0DC010021B9E1 /* LUExpandableTableViewSectionHeader.swift */; };
-		CFE703331DE0D95E00042757 /* LUExpandableTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE703311DE0D95E00042757 /* LUExpandableTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF94D6111E96889E0097D1D6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF94D60B1E96889E0097D1D6 /* Info.plist */; };
+		CF94D6121E96889E0097D1D6 /* LUExpandableTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF94D60C1E96889E0097D1D6 /* LUExpandableTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF94D6131E96889E0097D1D6 /* LUExpandableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF94D60D1E96889E0097D1D6 /* LUExpandableTableView.swift */; };
+		CF94D6141E96889E0097D1D6 /* LUExpandableTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF94D60E1E96889E0097D1D6 /* LUExpandableTableViewDataSource.swift */; };
+		CF94D6151E96889E0097D1D6 /* LUExpandableTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF94D60F1E96889E0097D1D6 /* LUExpandableTableViewDelegate.swift */; };
+		CF94D6161E96889E0097D1D6 /* LUExpandableTableViewSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF94D6101E96889E0097D1D6 /* LUExpandableTableViewSectionHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CF4B9F651DE0DAA70021B9E1 /* LUExpandableTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LUExpandableTableView.swift; sourceTree = "<group>"; };
-		CF4B9F671DE0DB1C0021B9E1 /* LUExpandableTableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LUExpandableTableViewDelegate.swift; sourceTree = "<group>"; };
-		CF4B9F691DE0DB3B0021B9E1 /* LUExpandableTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LUExpandableTableViewDataSource.swift; sourceTree = "<group>"; };
-		CF4B9F6B1DE0DC010021B9E1 /* LUExpandableTableViewSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LUExpandableTableViewSectionHeader.swift; sourceTree = "<group>"; };
+		CF94D60B1E96889E0097D1D6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF94D60C1E96889E0097D1D6 /* LUExpandableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUExpandableTableView.h; sourceTree = "<group>"; };
+		CF94D60D1E96889E0097D1D6 /* LUExpandableTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LUExpandableTableView.swift; sourceTree = "<group>"; };
+		CF94D60E1E96889E0097D1D6 /* LUExpandableTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LUExpandableTableViewDataSource.swift; sourceTree = "<group>"; };
+		CF94D60F1E96889E0097D1D6 /* LUExpandableTableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LUExpandableTableViewDelegate.swift; sourceTree = "<group>"; };
+		CF94D6101E96889E0097D1D6 /* LUExpandableTableViewSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LUExpandableTableViewSectionHeader.swift; sourceTree = "<group>"; };
 		CFE7032E1DE0D95E00042757 /* LUExpandableTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LUExpandableTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFE703311DE0D95E00042757 /* LUExpandableTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUExpandableTableView.h; sourceTree = "<group>"; };
-		CFE703321DE0D95E00042757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,10 +36,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF94D60A1E96889E0097D1D6 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CF94D60B1E96889E0097D1D6 /* Info.plist */,
+				CF94D60C1E96889E0097D1D6 /* LUExpandableTableView.h */,
+				CF94D60D1E96889E0097D1D6 /* LUExpandableTableView.swift */,
+				CF94D60E1E96889E0097D1D6 /* LUExpandableTableViewDataSource.swift */,
+				CF94D60F1E96889E0097D1D6 /* LUExpandableTableViewDelegate.swift */,
+				CF94D6101E96889E0097D1D6 /* LUExpandableTableViewSectionHeader.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		CFE703241DE0D95E00042757 = {
 			isa = PBXGroup;
 			children = (
-				CFE703301DE0D95E00042757 /* LUExpandableTableView */,
+				CF94D60A1E96889E0097D1D6 /* Sources */,
 				CFE7032F1DE0D95E00042757 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,19 +65,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CFE703301DE0D95E00042757 /* LUExpandableTableView */ = {
-			isa = PBXGroup;
-			children = (
-				CFE703321DE0D95E00042757 /* Info.plist */,
-				CFE703311DE0D95E00042757 /* LUExpandableTableView.h */,
-				CF4B9F651DE0DAA70021B9E1 /* LUExpandableTableView.swift */,
-				CF4B9F691DE0DB3B0021B9E1 /* LUExpandableTableViewDataSource.swift */,
-				CF4B9F671DE0DB1C0021B9E1 /* LUExpandableTableViewDelegate.swift */,
-				CF4B9F6B1DE0DC010021B9E1 /* LUExpandableTableViewSectionHeader.swift */,
-			);
-			path = LUExpandableTableView;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -71,7 +72,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFE703331DE0D95E00042757 /* LUExpandableTableView.h in Headers */,
+				CF94D6121E96889E0097D1D6 /* LUExpandableTableView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF94D6111E96889E0097D1D6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,10 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF4B9F6A1DE0DB3B0021B9E1 /* LUExpandableTableViewDataSource.swift in Sources */,
-				CF4B9F6C1DE0DC010021B9E1 /* LUExpandableTableViewSectionHeader.swift in Sources */,
-				CF4B9F661DE0DAA70021B9E1 /* LUExpandableTableView.swift in Sources */,
-				CF4B9F681DE0DB1C0021B9E1 /* LUExpandableTableViewDelegate.swift in Sources */,
+				CF94D6131E96889E0097D1D6 /* LUExpandableTableView.swift in Sources */,
+				CF94D6161E96889E0097D1D6 /* LUExpandableTableViewSectionHeader.swift in Sources */,
+				CF94D6141E96889E0097D1D6 /* LUExpandableTableViewDataSource.swift in Sources */,
+				CF94D6151E96889E0097D1D6 /* LUExpandableTableViewDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +269,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = LUExpandableTableView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -289,7 +291,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = LUExpandableTableView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
