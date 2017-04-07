@@ -1,0 +1,6 @@
+framework module LUExpandableTableView {
+  umbrella header "LUExpandableTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}
