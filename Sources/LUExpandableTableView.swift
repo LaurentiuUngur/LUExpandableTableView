@@ -52,8 +52,8 @@ open class LUExpandableTableView: UITableView {
         }
     }
     
-    /// A set that contains the sections that are expanded
-    fileprivate var expandedSections = Set<Int>()
+    /// A set that contains the indexes of sections that are expanded
+    public fileprivate(set) var expandedSections = Set<Int>()
     
     // MARK: - Init
     
@@ -97,11 +97,53 @@ open class LUExpandableTableView: UITableView {
     
     /** A function that determines whether the section at given index is expanded.
      
-    - Parameter index: An index number identifying a section of tableView
+    - Parameter index: An index number identifying a section of table view
     - Returns: `true` if the section at given index is expanded, otherwise `false`
     */
     public func isExpandedSection(at index: Int) -> Bool {
         return expandedSections.contains(index)
+    }
+
+    /** A function that expands sections at given indexes
+ 
+    - Parameter indexes: Index numbers identifying sections of table view
+ 
+    - Note: Indexes that are out of bounds are ignored
+    */
+    public func expandSections(at indexes: [Int]) {
+        perform(expanding: true, forSectionsAt: indexes)
+    }
+
+    /** A function that collapses sections at given indexes
+
+    - Parameter indexes: Index numbers identifying sections of table view
+
+    - Note: Indexes that are out of bounds are ignored
+    */
+    public func collapseSections(at indexes: [Int]) {
+        perform(expanding: false, forSectionsAt: indexes)
+    }
+
+    // MARK: - Private Functions
+
+    private func perform(expanding: Bool, forSectionsAt indexes: [Int]) {
+        let goodIndexes = indexes.filter { $0 >= 0 && $0 < numberOfSections }
+
+        guard goodIndexes.count > 0 else {
+            return
+        }
+
+        if expanding {
+            expandedSections.formUnion(goodIndexes)
+        } else {
+            goodIndexes.forEach {
+                expandedSections.remove($0)
+            }
+        }
+
+        beginUpdates()
+        reloadSections(IndexSet(goodIndexes), with: animation)
+        endUpdates()
     }
 }
 
