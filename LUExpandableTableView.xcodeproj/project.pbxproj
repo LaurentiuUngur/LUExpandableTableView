@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF94D6111E96889E0097D1D6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF94D60B1E96889E0097D1D6 /* Info.plist */; };
 		CF94D6121E96889E0097D1D6 /* LUExpandableTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF94D60C1E96889E0097D1D6 /* LUExpandableTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF94D6131E96889E0097D1D6 /* LUExpandableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF94D60D1E96889E0097D1D6 /* LUExpandableTableView.swift */; };
 		CF94D6141E96889E0097D1D6 /* LUExpandableTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF94D60E1E96889E0097D1D6 /* LUExpandableTableViewDataSource.swift */; };
@@ -103,7 +102,7 @@
 		CFE703251DE0D95E00042757 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Laurentiu Ungur";
 				TargetAttributes = {
 					CFE7032D1DE0D95E00042757 = {
@@ -135,7 +134,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF94D6111E96889E0097D1D6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
