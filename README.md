@@ -6,8 +6,9 @@
 A subclass of `UITableView` with expandable and collapsible sections
 
 [![Build Status](http://img.shields.io/travis/LaurentiuUngur/LUExpandableTableView/master.svg?style=flat)](https://travis-ci.org/LaurentiuUngur/LUExpandableTableView)
-[![Pod Version](http://img.shields.io/cocoapods/v/LUExpandableTableView.svg?style=flat)](http://cocoadocs.org/docsets/LUExpandableTableView/)
-[![Pod Platform](http://img.shields.io/cocoapods/p/LUExpandableTableView.svg?style=flat)](http://cocoadocs.org/docsets/LUExpandableTableView/)
+[![Pod Version](http://img.shields.io/cocoapods/v/LUExpandableTableView.svg?style=flat)](https://cocoapods.org/pods/LUExpandableTableView/)
+![language](https://img.shields.io/badge/Language-Swift3-8E44AD.svg)
+![Pod Platform](http://img.shields.io/cocoapods/p/LUExpandableTableView.svg?style=flat)
 [![Pod License](http://img.shields.io/cocoapods/l/LUExpandableTableView.svg?style=flat)](https://opensource.org/licenses/MIT)
 
 ## Preview
@@ -24,7 +25,7 @@ A subclass of `UITableView` with expandable and collapsible sections
 $ sudo gem install cocoapods
 ```
 
-> CocoaPods 1.1.0+ is required.
+> CocoaPods 1.2.0+ is required.
 
 To integrate LUExpandableTableView into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
