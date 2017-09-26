@@ -14,8 +14,8 @@ final class ViewController: UIViewController {
     
     private let expandableTableView = LUExpandableTableView()
     
-    fileprivate let cellReuseIdentifier = "MyCell"
-    fileprivate let sectionHeaderReuseIdentifier = "MySectionHeader"
+    private let cellReuseIdentifier = "MyCell"
+    private let sectionHeaderReuseIdentifier = "MySectionHeader"
 
     // MARK: - ViewController
     

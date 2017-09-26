@@ -1,6 +1,6 @@
 {
   "name": "LUExpandableTableView",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "summary": "A subclass of UITableView with expandable and collapsible sections",
   "description": "A subclass of UITableView with expandable and collapsible sections that is easy to use and highly customisable",
   "homepage": "https://github.com/LaurentiuUngur/LUExpandableTableView",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/LaurentiuUngur/LUExpandableTableView.git",
-    "tag": "2.1.0"
+    "tag": "3.0.0"
   },
   "authors": {
     "Laurentiu Ungur": "laurentyu1995@gmail.com"
@@ -22,6 +22,6 @@
   "source_files": "Sources/*.{swift}",
   "preserve_paths": "README*",
   "pod_target_xcconfig": {
-    "SWIFT_VERSION": "3.0"
+    "SWIFT_VERSION": "4.0"
   }
 }
