@@ -53,7 +53,7 @@ open class LUExpandableTableView: UITableView {
     }
     
     /// A set that contains the indexes of sections that are expanded
-    public fileprivate(set) var expandedSections = Set<Int>()
+    public private(set) var expandedSections = Set<Int>()
     
     // MARK: - Init
     
