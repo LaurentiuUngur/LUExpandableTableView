@@ -1,5 +1,10 @@
 # Change Log
 
+## [3.0.0](https://github.com/LaurentiuUngur/LUExpandableTableView/releases/tag/3.0.0)
+
+- Swift 4 and Xcode 9 support
+- Add Carthage support
+
 ## [2.1.0](https://github.com/LaurentiuUngur/LUExpandableTableView/releases/tag/2.1.0)
 
 - Add ability to expand or collapse sections programatically
