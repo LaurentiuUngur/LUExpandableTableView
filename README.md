@@ -80,7 +80,7 @@ let package = Package(name: "MyApp",
 
 ### Manually
 
-If you prefer not to use either of the before mentioned dependency managers, you can integrate LUExpandableTableView into your project manually.
+If you prefer not to use either of the before mentioned dependency managers, you can integrate `LUExpandableTableView` into your project manually.
 
 ## Usage
 
