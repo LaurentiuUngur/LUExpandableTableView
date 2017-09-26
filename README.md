@@ -9,7 +9,6 @@ A subclass of `UITableView` with expandable and collapsible sections
 ![Swift 4](https://img.shields.io/badge/Swift-4-yellow.svg)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
-![language](https://img.shields.io/badge/Language-Swift3-8E44AD.svg)
 [![Pod Version](http://img.shields.io/cocoapods/v/LUExpandableTableView.svg?style=flat)](https://cocoapods.org/pods/LUExpandableTableView/)
 ![Pod Platform](http://img.shields.io/cocoapods/p/LUExpandableTableView.svg?style=flat)
 [![Pod License](http://img.shields.io/cocoapods/l/LUExpandableTableView.svg?style=flat)](https://opensource.org/licenses/MIT)
