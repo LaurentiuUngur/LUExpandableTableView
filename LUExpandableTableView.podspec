@@ -14,5 +14,4 @@ Pod::Spec.new do |s|
   
   s.source_files   = "Sources/*.{swift}"
   s.preserve_paths = "README*"
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 end

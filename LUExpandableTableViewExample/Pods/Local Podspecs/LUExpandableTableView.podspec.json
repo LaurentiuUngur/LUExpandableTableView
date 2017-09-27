@@ -20,8 +20,5 @@
     "ios": "9.0"
   },
   "source_files": "Sources/*.{swift}",
-  "preserve_paths": "README*",
-  "pod_target_xcconfig": {
-    "SWIFT_VERSION": "4.0"
-  }
+  "preserve_paths": "README*"
 }

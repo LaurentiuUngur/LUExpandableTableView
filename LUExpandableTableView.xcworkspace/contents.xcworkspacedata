@@ -11,10 +11,10 @@
       location = "group:CHANGELOG.md">
    </FileRef>
    <FileRef
-      location = "group:LUExpandableTableViewExample/LUExpandableTableViewExample.xcodeproj">
+      location = "group:LUExpandableTableView.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:LUExpandableTableView.xcodeproj">
+      location = "group:LUExpandableTableViewExample/LUExpandableTableViewExample.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:LUExpandableTableViewExample/Pods/Pods.xcodeproj">
