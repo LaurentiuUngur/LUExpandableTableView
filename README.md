@@ -1,5 +1,5 @@
 <p align="center" >
-    <img src="Icon.png" title="Title image" float=center width=300>
+    <img src="ReadmeIcon.png" title="Title image" float=center width=300>
 </p>
 
 # LUExpandableTableView
