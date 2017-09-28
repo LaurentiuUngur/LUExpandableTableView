@@ -29,7 +29,7 @@ $ sudo gem install cocoapods
 
 > CocoaPods 1.4.0+ is required.
 
-To integrate LUExpandableTableView into your Xcode project using CocoaPods, specify it in your `Podfile`:
+To integrate `LUExpandableTableView` into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
