@@ -148,7 +148,7 @@ open class LUExpandableTableView: UITableView {
     
     // MARK: - Data Source Proxy
     
-    public var dataSourceProxy: UITableViewDataSource? {
+    public weak var dataSourceProxy: UITableViewDataSource? {
         didSet {
             // Reset data source to refresh cached responders
             dataSource = nil
