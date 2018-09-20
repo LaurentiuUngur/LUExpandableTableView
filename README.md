@@ -27,7 +27,7 @@ A subclass of `UITableView` with expandable and collapsible sections
 $ sudo gem install cocoapods
 ```
 
-> CocoaPods 1.4.0+ is required.
+> CocoaPods 1.6.0+ is required.
 
 To integrate `LUExpandableTableView` into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
@@ -52,7 +52,7 @@ $ pod install
 You can use [Carthage](https://github.com/Carthage/Carthage) to install `LUExpandableTableView` by adding it to your `Cartfile`:
 
 ```
-github "LaurentiuUngur/LUExpandableTableView" ~> 3.0
+github "LaurentiuUngur/LUExpandableTableView" ~> 4.0
 ```
 
 Then run `carthage update`.
@@ -74,7 +74,7 @@ import PackageDescription
 
 let package = Package(name: "MyApp",
     dependencies: [
-        .Package(url: "https://github.com/LaurentiuUngur/LUExpandableTableView", majorVersion: 3)
+        .Package(url: "https://github.com/LaurentiuUngur/LUExpandableTableView", majorVersion: 4)
     ])
 ```
 
@@ -186,8 +186,8 @@ extension ViewController: LUExpandableTableViewDelegate {
 
 ## Requirements
 
-- Xcode 9.0+
-- Swift 4.0+
+- Xcode 10.0+
+- Swift 4.2+
 - iOS 9.0+
 
 ## Author

@@ -18,7 +18,7 @@ open class LUExpandableTableView: UITableView {
     public weak var expandableTableViewDelegate: LUExpandableTableViewDelegate?
     
     /// The `UITableViewRowAnimation` animation used for showing/hiding rows when expand/collapse occurs. Default value is `fade`
-    public var animation: UITableViewRowAnimation = .fade
+    public var animation: UITableView.RowAnimation = .fade
     
     /** The object that acts as the data source of the table view.
      
@@ -65,7 +65,7 @@ open class LUExpandableTableView: UITableView {
      
     - Returns: Returns an initialized `UITableView` object, or `nil` if the object could not be successfully initialized.
     */
-    public override init(frame: CGRect, style: UITableViewStyle) {
+    public override init(frame: CGRect, style: UITableView.Style) {
         super.init(frame: frame, style: style)
         
         commonInit()
@@ -87,9 +87,9 @@ open class LUExpandableTableView: UITableView {
         delegate = self
         dataSource = self
         
-        rowHeight = UITableViewAutomaticDimension
+        rowHeight = UITableView.automaticDimension
         estimatedRowHeight = 60
-        sectionHeaderHeight = UITableViewAutomaticDimension
+        sectionHeaderHeight = UITableView.automaticDimension
         estimatedSectionHeaderHeight = 60
     }
     
@@ -187,7 +187,7 @@ extension LUExpandableTableView: UITableViewDelegate {
     - Returns: A nonnegative floating-point value that specifies the height (in points) that row should be.
     */
     public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return expandableTableViewDelegate?.expandableTableView(self, heightForRowAt: indexPath) ?? UITableViewAutomaticDimension
+        return expandableTableViewDelegate?.expandableTableView(self, heightForRowAt: indexPath) ?? UITableView.automaticDimension
     }
 
     /** Asks the delegate for the height to use for the header of a particular section.
@@ -199,7 +199,7 @@ extension LUExpandableTableView: UITableViewDelegate {
     - Returns: A nonnegative floating-point value that specifies the height (in points) of the header for section.
     */
     public func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return expandableTableViewDelegate?.expandableTableView(self, heightForHeaderInSection: section) ?? UITableViewAutomaticDimension
+        return expandableTableViewDelegate?.expandableTableView(self, heightForHeaderInSection: section) ?? UITableView.automaticDimension
     }
 
     /** Tells the delegate the table view is about to draw a cell for a particular row.

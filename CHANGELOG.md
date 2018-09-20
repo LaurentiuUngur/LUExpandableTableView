@@ -1,5 +1,9 @@
 # Change Log
 
+## [4.0.0](https://github.com/LaurentiuUngur/LUExpandableTableView/releases/tag/4.0.0)
+
+- Swift 4.2 and Xcode 10 support
+
 ## [3.0.0](https://github.com/LaurentiuUngur/LUExpandableTableView/releases/tag/3.0.0)
 
 - Swift 4 and Xcode 9 support
