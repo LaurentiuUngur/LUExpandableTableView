@@ -64,7 +64,7 @@ If this is your first time using Carthage in the project, you'll need to go thro
 To integrate using Apple's [Swift Package Manager](https://swift.org/package-manager), add the following as a dependency to your `Package.swift`:
 
 ```Swift
-.Package(url: "https://githubLaurentiuUngur/LUExpandableTableView", majorVersion: 3)
+.Package(url: "https://githubLaurentiuUngur/LUExpandableTableView", majorVersion: 4)
 ```
 
 Here's an example of `PackageDescription`:
