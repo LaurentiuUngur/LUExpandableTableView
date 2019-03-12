@@ -1,5 +1,10 @@
 # Change Log
 
+## [4.1.0](https://github.com/LaurentiuUngur/LUExpandableTableView/releases/tag/4.0.0)
+
+- Add  `expandableTableView(:, viewForFooterInSection:)` delegate function
+- Add  `expandableTableView(:, heightForHeaderInSection:)` delegate function
+
 ## [4.0.0](https://github.com/LaurentiuUngur/LUExpandableTableView/releases/tag/4.0.0)
 
 - Swift 4.2 and Xcode 10 support

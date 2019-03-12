@@ -155,6 +155,8 @@ extension LUExpandableTableView: UITableViewDelegate {
     - Parameters:
         - tableView: The table-view object asking for the view object.
         - section: An index number identifying a section of `tableView`.
+
+    - Returns: A view object to be displayed in the header of section .
     */
     public func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         guard let sectionHeader = expandableTableViewDataSource?.expandableTableView(self, sectionHeaderOfSection: section) else {
@@ -166,6 +168,18 @@ extension LUExpandableTableView: UITableViewDelegate {
         sectionHeader.isExpanded = expandedSections.contains(section)
         
         return sectionHeader
+    }
+
+    /** Asks the delegate for a view object to display in the footer of the specified section of the table view.
+
+    - Parameters:
+        - tableView: The table-view object asking for the view object.
+        - section: An index number identifying a section of `tableView`.
+
+    - Returns: A view object to be displayed in the footer of section .
+    */
+    public func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        return expandableTableViewDelegate?.expandableTableView(self, viewForFooterInSection: section)
     }
 
     /** Tells the delegate that the specified row is now selected.
@@ -200,6 +214,18 @@ extension LUExpandableTableView: UITableViewDelegate {
     */
     public func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return expandableTableViewDelegate?.expandableTableView(self, heightForHeaderInSection: section) ?? UITableView.automaticDimension
+    }
+
+    /** Asks the delegate for the height to use for the footer of a particular section.
+
+    - Parameters:
+        - tableView: The table-view object requesting this information.
+        - section: An index number identifying a section of `tableView`.
+
+    - Returns: A nonnegative floating-point value that specifies the height (in points) of the footer for section.
+    */
+    public func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return expandableTableViewDelegate?.expandableTableView(self, heightForFooterInSection: section) ?? UITableView.automaticDimension
     }
 
     /** Tells the delegate the table view is about to draw a cell for a particular row.

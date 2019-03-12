@@ -10,6 +10,16 @@ import UIKit
 
 /// The delegate of a `LUExpandableTableView` object must adopt the `LUExpandableTableViewDelegate` protocol.
 public protocol LUExpandableTableViewDelegate: class {
+    /** Asks the delegate for a view object to display in the footer of the specified section of the table view.
+
+    - Parameters:
+        - expandableTableView: The expandable table view object asking for the view object.
+        - section: An index number identifying a section of `tableView`.
+
+    - Returns: A view object to be displayed in the footer of section .
+    */
+    func expandableTableView(_ expandableTableView: LUExpandableTableView, viewForFooterInSection section: Int) -> UIView?
+
     /** Asks the delegate for the height to use for a row in a specified location
     
     - Parameters:
@@ -33,6 +43,16 @@ public protocol LUExpandableTableViewDelegate: class {
     - Returns: A nonnegative floating-point value that specifies the height (in points) of the header for `section`
     */
     func expandableTableView(_ expandableTableView: LUExpandableTableView, heightForHeaderInSection section: Int) -> CGFloat
+
+    /** Asks the delegate for the height to use for the footer of a particular section.
+
+    - Parameters:
+        - expandableTableView: The expandable table view object asking for the view object.
+        - section: An index number identifying a section of `tableView`.
+
+    - Returns: A nonnegative floating-point value that specifies the height (in points) of the footer for section.
+    */
+    func expandableTableView(_ expandableTableView: UITableView, heightForFooterInSection section: Int) -> CGFloat
     
     /** Tells the delegate that the specified row is now selected
      
@@ -73,6 +93,10 @@ public protocol LUExpandableTableViewDelegate: class {
 // MARK: - Optional Delegates
 
 public extension LUExpandableTableViewDelegate {
+    func expandableTableView(_ expandableTableView: LUExpandableTableView, viewForFooterInSection section: Int) -> UIView? {
+        return nil
+    }
+    
     func expandableTableView(_ expandableTableView: LUExpandableTableView, didSelectRowAt indexPath: IndexPath) {
     }
     

@@ -103,4 +103,12 @@ extension ViewController: LUExpandableTableViewDelegate {
     func expandableTableView(_ expandableTableView: LUExpandableTableView, willDisplaySectionHeader sectionHeader: LUExpandableTableViewSectionHeader, forSection section: Int) {
         print("Will display section header for section \(section)")
     }
+
+    func expandableTableView(_ expandableTableView: LUExpandableTableView, viewForFooterInSection section: Int) -> UIView? {
+        return nil
+    }
+
+    func expandableTableView(_ expandableTableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 0
+    }
 }

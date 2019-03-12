@@ -7,233 +7,233 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B1F49467B2F24A758D1578F4362DF15 /* LUExpandableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE960F2CCB8ED0772247DB068C6914 /* LUExpandableTableView.swift */; };
-		163B70858F963AFAE893FBDD36448B5C /* LUExpandableTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB33A6B17577A01F404F2BE67555A0C6 /* LUExpandableTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2583CB97185D17E9CE8B37B63B1F19ED /* LUExpandableTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D716070FD358CF2C85C6F98BCD473314 /* LUExpandableTableView-dummy.m */; };
-		5980E7EB374A78D82A819AC0A10F666A /* Pods-LUExpandableTableViewExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 813E5EEAAF54B8EC2CDEDE6A4F4B21C8 /* Pods-LUExpandableTableViewExample-dummy.m */; };
-		611999E496B1B964DD8C9856292A99D8 /* LUExpandableTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37571A5159FDCFB4E431D996B24F246C /* LUExpandableTableViewDataSource.swift */; };
-		82E51E85BFB2071E1115B58A76BA993D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		9858C8BA15FBFC9B8DC7AAEC9E381F89 /* LUExpandableTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F41349AE54B22FE26FC2B57207DD6 /* LUExpandableTableViewDelegate.swift */; };
-		AD59265687484E4CED031723CD1FBA8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		CAD7BD17EBD2B52A39DE40C2433EAB84 /* LUExpandableTableViewSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDF596FC6B196B8034CA9E911D81A20 /* LUExpandableTableViewSectionHeader.swift */; };
-		DC55C9A866FE7B3161CF6866B7E6E325 /* Pods-LUExpandableTableViewExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC51FEC2CD00B33D9409A7A821190D79 /* Pods-LUExpandableTableViewExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0676C04CC9148E31AAAE691B9D20E828 /* Pods-LUExpandableTableViewExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9DFAB5FC00EE47CFA07564513CB6E89 /* Pods-LUExpandableTableViewExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AC2421FF87EE4819BA55528BBD4F0C7 /* LUExpandableTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D1A7FCBE0772BE2FA1A33087EE29BB /* LUExpandableTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		311C6FB2FAC2FD845434B2189B94BBE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		38DD96B78BD1D3DFD13AF80E0234396E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		4BF909A91029FFEA6A2C243AB12A93DD /* LUExpandableTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45A341F9883D92CD6429F76D4BAC9D2 /* LUExpandableTableViewDataSource.swift */; };
+		7CDF79A0E08FCAD96D78898E16B92391 /* Pods-LUExpandableTableViewExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C270E6203FADDB53B99E59167925B2AF /* Pods-LUExpandableTableViewExample-dummy.m */; };
+		7E4AB2F901D2124ECEA22B7F02EFA1BA /* LUExpandableTableViewSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C519F139ACD2B8CABB3FD31C432FE5A /* LUExpandableTableViewSectionHeader.swift */; };
+		AE41557103EB73D34C1201C63FB7FEFF /* LUExpandableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916BBA4D5FFBEC92407873D865D1F659 /* LUExpandableTableView.swift */; };
+		C3D6A7CC14FD3E2542805D0574B875C6 /* LUExpandableTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C09455F19D39C9D26DEBCCC6CCB42 /* LUExpandableTableViewDelegate.swift */; };
+		E02C9C3739D534973FBD94EDECF54562 /* LUExpandableTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1345044EFB14829D279FF767C57092F /* LUExpandableTableView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3FE03C42E9C8E52F72E11A519415BEED /* PBXContainerItemProxy */ = {
+		F306F9623BF889FED7F3C002F5F9ED86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F1D68CC4BB49023EC2AB23D5C0A714A6;
+			remoteGlobalIDString = F707E6521B9A6400A01E43072554687E;
 			remoteInfo = LUExpandableTableView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		088F5D8CA29A9176A09C3A65207BA336 /* LUExpandableTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LUExpandableTableView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0BD222C776145AAFFFA455B8E29E005D /* Pods-LUExpandableTableViewExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LUExpandableTableViewExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1CDF596FC6B196B8034CA9E911D81A20 /* LUExpandableTableViewSectionHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LUExpandableTableViewSectionHeader.swift; path = Sources/LUExpandableTableViewSectionHeader.swift; sourceTree = "<group>"; };
-		30D75BC8BE6F2BF4F996D122D9929835 /* Pods-LUExpandableTableViewExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LUExpandableTableViewExample-frameworks.sh"; sourceTree = "<group>"; };
-		36F28CF714B06CBB63A68269D185EB20 /* Pods-LUExpandableTableViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LUExpandableTableViewExample.release.xcconfig"; sourceTree = "<group>"; };
-		37571A5159FDCFB4E431D996B24F246C /* LUExpandableTableViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LUExpandableTableViewDataSource.swift; path = Sources/LUExpandableTableViewDataSource.swift; sourceTree = "<group>"; };
-		49E37795D12D04BD5BD3D368BB090DBD /* Pods-LUExpandableTableViewExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LUExpandableTableViewExample.modulemap"; sourceTree = "<group>"; };
-		4C53E74630B59D202E87531830CDC930 /* Pods-LUExpandableTableViewExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LUExpandableTableViewExample-Info.plist"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		63F23C20A1FCA0EE1E0791726E878C4B /* LUExpandableTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LUExpandableTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EFF5DC1453E5349EA4D34345A06D419 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		7551C60B6283DDE1EC785ABE82F61381 /* LUExpandableTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LUExpandableTableView.xcconfig; sourceTree = "<group>"; };
-		813E5EEAAF54B8EC2CDEDE6A4F4B21C8 /* Pods-LUExpandableTableViewExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LUExpandableTableViewExample-dummy.m"; sourceTree = "<group>"; };
-		81F56EBFDD0674BC4B172C3FA9613DC9 /* LUExpandableTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LUExpandableTableView-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9C5F41349AE54B22FE26FC2B57207DD6 /* LUExpandableTableViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LUExpandableTableViewDelegate.swift; path = Sources/LUExpandableTableViewDelegate.swift; sourceTree = "<group>"; };
-		ACDE960F2CCB8ED0772247DB068C6914 /* LUExpandableTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LUExpandableTableView.swift; path = Sources/LUExpandableTableView.swift; sourceTree = "<group>"; };
-		B1BF598E7ED7D9741E097F28BCB5E2F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B6DFA9D5D0668E92EDCC420A55F6AEB7 /* Pods-LUExpandableTableViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LUExpandableTableViewExample.debug.xcconfig"; sourceTree = "<group>"; };
-		BB33A6B17577A01F404F2BE67555A0C6 /* LUExpandableTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LUExpandableTableView-umbrella.h"; sourceTree = "<group>"; };
-		BFF4CBBBD2A41C6CC9B308115859D581 /* Pods_LUExpandableTableViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LUExpandableTableViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D033F22113C271D8117C17F820735A2C /* LUExpandableTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LUExpandableTableView.modulemap; sourceTree = "<group>"; };
-		D716070FD358CF2C85C6F98BCD473314 /* LUExpandableTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LUExpandableTableView-dummy.m"; sourceTree = "<group>"; };
-		D7C7D26752465683B510E207B583392E /* Pods-LUExpandableTableViewExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LUExpandableTableViewExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		D992C1EFB4510CEBD16E2E50E2A6438D /* LUExpandableTableView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LUExpandableTableView-Info.plist"; sourceTree = "<group>"; };
-		DC51FEC2CD00B33D9409A7A821190D79 /* Pods-LUExpandableTableViewExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LUExpandableTableViewExample-umbrella.h"; sourceTree = "<group>"; };
+		1DF67F0AEA8182AFC19597064853387D /* LUExpandableTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LUExpandableTableView.xcconfig; sourceTree = "<group>"; };
+		2234C197FD5E588C885A6B01797AC752 /* LUExpandableTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LUExpandableTableView-prefix.pch"; sourceTree = "<group>"; };
+		27D1A7FCBE0772BE2FA1A33087EE29BB /* LUExpandableTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LUExpandableTableView-umbrella.h"; sourceTree = "<group>"; };
+		286C09455F19D39C9D26DEBCCC6CCB42 /* LUExpandableTableViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LUExpandableTableViewDelegate.swift; path = Sources/LUExpandableTableViewDelegate.swift; sourceTree = "<group>"; };
+		3A64A8CE733917FD8297003A291C7547 /* LUExpandableTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LUExpandableTableView.modulemap; sourceTree = "<group>"; };
+		455A5B452233D1EAB781244FA92624CF /* Pods-LUExpandableTableViewExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LUExpandableTableViewExample-frameworks.sh"; sourceTree = "<group>"; };
+		4C519F139ACD2B8CABB3FD31C432FE5A /* LUExpandableTableViewSectionHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LUExpandableTableViewSectionHeader.swift; path = Sources/LUExpandableTableViewSectionHeader.swift; sourceTree = "<group>"; };
+		4CC053A5DCE2AFB8118C6B234A5F3192 /* Pods-LUExpandableTableViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LUExpandableTableViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		7296DAF7D8013DB1FE13A358D56056EA /* Pods-LUExpandableTableViewExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LUExpandableTableViewExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		788980764FB335FB8075804A05AD2FC8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7E52A846D3CDCAE0C8DF9068E4DF4048 /* Pods_LUExpandableTableViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LUExpandableTableViewExample.framework; path = "Pods-LUExpandableTableViewExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6213FE0A6C85B29F83B024A496555A /* Pods-LUExpandableTableViewExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LUExpandableTableViewExample-Info.plist"; sourceTree = "<group>"; };
+		9138BE98E8E5B6C62E6050D642C27A1A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		916BBA4D5FFBEC92407873D865D1F659 /* LUExpandableTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LUExpandableTableView.swift; path = Sources/LUExpandableTableView.swift; sourceTree = "<group>"; };
+		99029B62D5C7519A9104A83F3EBDE5C5 /* Pods-LUExpandableTableViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LUExpandableTableViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E1D2B66D1694E98EDFCEF462002E064 /* Pods-LUExpandableTableViewExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LUExpandableTableViewExample.modulemap"; sourceTree = "<group>"; };
+		A1345044EFB14829D279FF767C57092F /* LUExpandableTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LUExpandableTableView-dummy.m"; sourceTree = "<group>"; };
+		AE38CBC248E2B11555AA4E83F113F04C /* LUExpandableTableView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LUExpandableTableView-Info.plist"; sourceTree = "<group>"; };
+		B9DFAB5FC00EE47CFA07564513CB6E89 /* Pods-LUExpandableTableViewExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LUExpandableTableViewExample-umbrella.h"; sourceTree = "<group>"; };
+		C270E6203FADDB53B99E59167925B2AF /* Pods-LUExpandableTableViewExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LUExpandableTableViewExample-dummy.m"; sourceTree = "<group>"; };
+		CACF98453C21487AE31DB06E0747B638 /* LUExpandableTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LUExpandableTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1D744C3F951D108201E70FF04963C3C /* Pods-LUExpandableTableViewExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LUExpandableTableViewExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D45A341F9883D92CD6429F76D4BAC9D2 /* LUExpandableTableViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LUExpandableTableViewDataSource.swift; path = Sources/LUExpandableTableViewDataSource.swift; sourceTree = "<group>"; };
+		D698F8257EB390403C59C0FB6E31C4D8 /* LUExpandableTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LUExpandableTableView.framework; path = LUExpandableTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8E9D469C6489C28956C8E65CED6CFF5E /* Frameworks */ = {
+		8810D7831DA0AAF23710DFC1651252AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD59265687484E4CED031723CD1FBA8D /* Foundation.framework in Frameworks */,
+				38DD96B78BD1D3DFD13AF80E0234396E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF5193B2FFF01FA35698AD0FEF12001E /* Frameworks */ = {
+		A591748B8A468C34A710110C63B8666C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82E51E85BFB2071E1115B58A76BA993D /* Foundation.framework in Frameworks */,
+				311C6FB2FAC2FD845434B2189B94BBE0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		0CDA560F4FF1857D96C33AC9CCDC51D6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				788980764FB335FB8075804A05AD2FC8 /* LICENSE */,
+				CACF98453C21487AE31DB06E0747B638 /* LUExpandableTableView.podspec */,
+				9138BE98E8E5B6C62E6050D642C27A1A /* README.md */,
 			);
-			name = iOS;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		788A672E7944033DA19B8E239C6A55E8 /* Support Files */ = {
+		39D00C51D70CAC74282B0C8A9676F827 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D033F22113C271D8117C17F820735A2C /* LUExpandableTableView.modulemap */,
-				7551C60B6283DDE1EC785ABE82F61381 /* LUExpandableTableView.xcconfig */,
-				D716070FD358CF2C85C6F98BCD473314 /* LUExpandableTableView-dummy.m */,
-				D992C1EFB4510CEBD16E2E50E2A6438D /* LUExpandableTableView-Info.plist */,
-				81F56EBFDD0674BC4B172C3FA9613DC9 /* LUExpandableTableView-prefix.pch */,
-				BB33A6B17577A01F404F2BE67555A0C6 /* LUExpandableTableView-umbrella.h */,
+				D698F8257EB390403C59C0FB6E31C4D8 /* LUExpandableTableView.framework */,
+				7E52A846D3CDCAE0C8DF9068E4DF4048 /* Pods_LUExpandableTableViewExample.framework */,
 			);
-			name = "Support Files";
-			path = "LUExpandableTableViewExample/Pods/Target Support Files/LUExpandableTableView";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		5A909DEA535B3AE4B35601C88078FBCB /* Pods-LUExpandableTableViewExample */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9359C7B83F1E4F58D7BCF11AF523BB58 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				DB7DC4C18BD8A45C0E2292FF183D24B4 /* Products */,
-				EC3CEC91700189BC6D3BE3E85D2DB009 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		9359C7B83F1E4F58D7BCF11AF523BB58 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9FFE0240EBDBF8080E4D4E51D91EEF61 /* LUExpandableTableView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9FFE0240EBDBF8080E4D4E51D91EEF61 /* LUExpandableTableView */ = {
-			isa = PBXGroup;
-			children = (
-				ACDE960F2CCB8ED0772247DB068C6914 /* LUExpandableTableView.swift */,
-				37571A5159FDCFB4E431D996B24F246C /* LUExpandableTableViewDataSource.swift */,
-				9C5F41349AE54B22FE26FC2B57207DD6 /* LUExpandableTableViewDelegate.swift */,
-				1CDF596FC6B196B8034CA9E911D81A20 /* LUExpandableTableViewSectionHeader.swift */,
-				B58C3AA6F097E8668907517184838FF4 /* Pod */,
-				788A672E7944033DA19B8E239C6A55E8 /* Support Files */,
-			);
-			name = LUExpandableTableView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		B52B80F92B735C7C9DCC2598B98EF2FE /* Pods-LUExpandableTableViewExample */ = {
-			isa = PBXGroup;
-			children = (
-				49E37795D12D04BD5BD3D368BB090DBD /* Pods-LUExpandableTableViewExample.modulemap */,
-				0BD222C776145AAFFFA455B8E29E005D /* Pods-LUExpandableTableViewExample-acknowledgements.markdown */,
-				D7C7D26752465683B510E207B583392E /* Pods-LUExpandableTableViewExample-acknowledgements.plist */,
-				813E5EEAAF54B8EC2CDEDE6A4F4B21C8 /* Pods-LUExpandableTableViewExample-dummy.m */,
-				30D75BC8BE6F2BF4F996D122D9929835 /* Pods-LUExpandableTableViewExample-frameworks.sh */,
-				4C53E74630B59D202E87531830CDC930 /* Pods-LUExpandableTableViewExample-Info.plist */,
-				DC51FEC2CD00B33D9409A7A821190D79 /* Pods-LUExpandableTableViewExample-umbrella.h */,
-				B6DFA9D5D0668E92EDCC420A55F6AEB7 /* Pods-LUExpandableTableViewExample.debug.xcconfig */,
-				36F28CF714B06CBB63A68269D185EB20 /* Pods-LUExpandableTableViewExample.release.xcconfig */,
+				9E1D2B66D1694E98EDFCEF462002E064 /* Pods-LUExpandableTableViewExample.modulemap */,
+				D1D744C3F951D108201E70FF04963C3C /* Pods-LUExpandableTableViewExample-acknowledgements.markdown */,
+				7296DAF7D8013DB1FE13A358D56056EA /* Pods-LUExpandableTableViewExample-acknowledgements.plist */,
+				C270E6203FADDB53B99E59167925B2AF /* Pods-LUExpandableTableViewExample-dummy.m */,
+				455A5B452233D1EAB781244FA92624CF /* Pods-LUExpandableTableViewExample-frameworks.sh */,
+				8E6213FE0A6C85B29F83B024A496555A /* Pods-LUExpandableTableViewExample-Info.plist */,
+				B9DFAB5FC00EE47CFA07564513CB6E89 /* Pods-LUExpandableTableViewExample-umbrella.h */,
+				99029B62D5C7519A9104A83F3EBDE5C5 /* Pods-LUExpandableTableViewExample.debug.xcconfig */,
+				4CC053A5DCE2AFB8118C6B234A5F3192 /* Pods-LUExpandableTableViewExample.release.xcconfig */,
 			);
 			name = "Pods-LUExpandableTableViewExample";
 			path = "Target Support Files/Pods-LUExpandableTableViewExample";
 			sourceTree = "<group>";
 		};
-		B58C3AA6F097E8668907517184838FF4 /* Pod */ = {
+		5C468920312FB825665697B2A6519398 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6EFF5DC1453E5349EA4D34345A06D419 /* LICENSE */,
-				088F5D8CA29A9176A09C3A65207BA336 /* LUExpandableTableView.podspec */,
-				B1BF598E7ED7D9741E097F28BCB5E2F7 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DB7DC4C18BD8A45C0E2292FF183D24B4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				63F23C20A1FCA0EE1E0791726E878C4B /* LUExpandableTableView.framework */,
-				BFF4CBBBD2A41C6CC9B308115859D581 /* Pods_LUExpandableTableViewExample.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EC3CEC91700189BC6D3BE3E85D2DB009 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B52B80F92B735C7C9DCC2598B98EF2FE /* Pods-LUExpandableTableViewExample */,
+				5A909DEA535B3AE4B35601C88078FBCB /* Pods-LUExpandableTableViewExample */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		78125535E9A65CFA6933D40078CC8A7A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A64A8CE733917FD8297003A291C7547 /* LUExpandableTableView.modulemap */,
+				1DF67F0AEA8182AFC19597064853387D /* LUExpandableTableView.xcconfig */,
+				A1345044EFB14829D279FF767C57092F /* LUExpandableTableView-dummy.m */,
+				AE38CBC248E2B11555AA4E83F113F04C /* LUExpandableTableView-Info.plist */,
+				2234C197FD5E588C885A6B01797AC752 /* LUExpandableTableView-prefix.pch */,
+				27D1A7FCBE0772BE2FA1A33087EE29BB /* LUExpandableTableView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "LUExpandableTableViewExample/Pods/Target Support Files/LUExpandableTableView";
+			sourceTree = "<group>";
+		};
+		85320C01E76875C3EDD1C41FAF89A6EF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB3ABF53C89A93D8B0F4CBCF0E24D0C0 /* LUExpandableTableView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AB3ABF53C89A93D8B0F4CBCF0E24D0C0 /* LUExpandableTableView */ = {
+			isa = PBXGroup;
+			children = (
+				916BBA4D5FFBEC92407873D865D1F659 /* LUExpandableTableView.swift */,
+				D45A341F9883D92CD6429F76D4BAC9D2 /* LUExpandableTableViewDataSource.swift */,
+				286C09455F19D39C9D26DEBCCC6CCB42 /* LUExpandableTableViewDelegate.swift */,
+				4C519F139ACD2B8CABB3FD31C432FE5A /* LUExpandableTableViewSectionHeader.swift */,
+				0CDA560F4FF1857D96C33AC9CCDC51D6 /* Pod */,
+				78125535E9A65CFA6933D40078CC8A7A /* Support Files */,
+			);
+			name = LUExpandableTableView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				85320C01E76875C3EDD1C41FAF89A6EF /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				39D00C51D70CAC74282B0C8A9676F827 /* Products */,
+				5C468920312FB825665697B2A6519398 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		47AE45BA6665B4A23D6C71FCD5A3A553 /* Headers */ = {
+		0BFBF6319ED0D82B9A4B89DFC5BE25CD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC55C9A866FE7B3161CF6866B7E6E325 /* Pods-LUExpandableTableViewExample-umbrella.h in Headers */,
+				2AC2421FF87EE4819BA55528BBD4F0C7 /* LUExpandableTableView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A63F8A41342B57335D3A5799DD434FC7 /* Headers */ = {
+		94117F4DB620CAC9C2FE1F035DDB3718 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				163B70858F963AFAE893FBDD36448B5C /* LUExpandableTableView-umbrella.h in Headers */,
+				0676C04CC9148E31AAAE691B9D20E828 /* Pods-LUExpandableTableViewExample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		74E7F71B7BB03FE394D2A7C715F6A7D2 /* Pods-LUExpandableTableViewExample */ = {
+		3445A9AED4C43135DB92B0BC46476AF7 /* Pods-LUExpandableTableViewExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F386945D9E39EBDF38DC27CB80C3714E /* Build configuration list for PBXNativeTarget "Pods-LUExpandableTableViewExample" */;
+			buildConfigurationList = B7B51225C01B3D19C8F466818A2B9701 /* Build configuration list for PBXNativeTarget "Pods-LUExpandableTableViewExample" */;
 			buildPhases = (
-				47AE45BA6665B4A23D6C71FCD5A3A553 /* Headers */,
-				8F85587721EAF7A9E6D999741D6245E3 /* Sources */,
-				FF5193B2FFF01FA35698AD0FEF12001E /* Frameworks */,
-				1C820603A560B8C1AD4D36E5A4A7E350 /* Resources */,
+				94117F4DB620CAC9C2FE1F035DDB3718 /* Headers */,
+				7D1F589BAE4C2F1B733F313CBE833F7E /* Sources */,
+				8810D7831DA0AAF23710DFC1651252AD /* Frameworks */,
+				CF3F81C31C4BE8841C1C1D7187FCFBC3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				607341BACFD36A964CBE750A3ADB3ECE /* PBXTargetDependency */,
+				C5128328CA78BDC829845C10E8EA0EB1 /* PBXTargetDependency */,
 			);
 			name = "Pods-LUExpandableTableViewExample";
 			productName = "Pods-LUExpandableTableViewExample";
-			productReference = BFF4CBBBD2A41C6CC9B308115859D581 /* Pods_LUExpandableTableViewExample.framework */;
+			productReference = 7E52A846D3CDCAE0C8DF9068E4DF4048 /* Pods_LUExpandableTableViewExample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F1D68CC4BB49023EC2AB23D5C0A714A6 /* LUExpandableTableView */ = {
+		F707E6521B9A6400A01E43072554687E /* LUExpandableTableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39B063BBD23DAA2956B4DE56D053D9DD /* Build configuration list for PBXNativeTarget "LUExpandableTableView" */;
+			buildConfigurationList = 97DACF2B2F79C660218300281968F936 /* Build configuration list for PBXNativeTarget "LUExpandableTableView" */;
 			buildPhases = (
-				A63F8A41342B57335D3A5799DD434FC7 /* Headers */,
-				E122678244473C97ED1F6324DC3960AA /* Sources */,
-				8E9D469C6489C28956C8E65CED6CFF5E /* Frameworks */,
-				9B1B90B63266A322ECE506F0A7B85B7E /* Resources */,
+				0BFBF6319ED0D82B9A4B89DFC5BE25CD /* Headers */,
+				FA5A9EE91370F0571C0D0765A6B19AC1 /* Sources */,
+				A591748B8A468C34A710110C63B8666C /* Frameworks */,
+				425B49AF6078299B5FE2658B21EA8A0B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -241,45 +241,45 @@
 			);
 			name = LUExpandableTableView;
 			productName = LUExpandableTableView;
-			productReference = 63F23C20A1FCA0EE1E0791726E878C4B /* LUExpandableTableView.framework */;
+			productReference = D698F8257EB390403C59C0FB6E31C4D8 /* LUExpandableTableView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DB7DC4C18BD8A45C0E2292FF183D24B4 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 39D00C51D70CAC74282B0C8A9676F827 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F1D68CC4BB49023EC2AB23D5C0A714A6 /* LUExpandableTableView */,
-				74E7F71B7BB03FE394D2A7C715F6A7D2 /* Pods-LUExpandableTableViewExample */,
+				F707E6521B9A6400A01E43072554687E /* LUExpandableTableView */,
+				3445A9AED4C43135DB92B0BC46476AF7 /* Pods-LUExpandableTableViewExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1C820603A560B8C1AD4D36E5A4A7E350 /* Resources */ = {
+		425B49AF6078299B5FE2658B21EA8A0B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B1B90B63266A322ECE506F0A7B85B7E /* Resources */ = {
+		CF3F81C31C4BE8841C1C1D7187FCFBC3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -289,42 +289,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8F85587721EAF7A9E6D999741D6245E3 /* Sources */ = {
+		7D1F589BAE4C2F1B733F313CBE833F7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5980E7EB374A78D82A819AC0A10F666A /* Pods-LUExpandableTableViewExample-dummy.m in Sources */,
+				7CDF79A0E08FCAD96D78898E16B92391 /* Pods-LUExpandableTableViewExample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E122678244473C97ED1F6324DC3960AA /* Sources */ = {
+		FA5A9EE91370F0571C0D0765A6B19AC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2583CB97185D17E9CE8B37B63B1F19ED /* LUExpandableTableView-dummy.m in Sources */,
-				0B1F49467B2F24A758D1578F4362DF15 /* LUExpandableTableView.swift in Sources */,
-				611999E496B1B964DD8C9856292A99D8 /* LUExpandableTableViewDataSource.swift in Sources */,
-				9858C8BA15FBFC9B8DC7AAEC9E381F89 /* LUExpandableTableViewDelegate.swift in Sources */,
-				CAD7BD17EBD2B52A39DE40C2433EAB84 /* LUExpandableTableViewSectionHeader.swift in Sources */,
+				E02C9C3739D534973FBD94EDECF54562 /* LUExpandableTableView-dummy.m in Sources */,
+				AE41557103EB73D34C1201C63FB7FEFF /* LUExpandableTableView.swift in Sources */,
+				4BF909A91029FFEA6A2C243AB12A93DD /* LUExpandableTableViewDataSource.swift in Sources */,
+				C3D6A7CC14FD3E2542805D0574B875C6 /* LUExpandableTableViewDelegate.swift in Sources */,
+				7E4AB2F901D2124ECEA22B7F02EFA1BA /* LUExpandableTableViewSectionHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		607341BACFD36A964CBE750A3ADB3ECE /* PBXTargetDependency */ = {
+		C5128328CA78BDC829845C10E8EA0EB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LUExpandableTableView;
-			target = F1D68CC4BB49023EC2AB23D5C0A714A6 /* LUExpandableTableView */;
-			targetProxy = 3FE03C42E9C8E52F72E11A519415BEED /* PBXContainerItemProxy */;
+			target = F707E6521B9A6400A01E43072554687E /* LUExpandableTableView */;
+			targetProxy = F306F9623BF889FED7F3C002F5F9ED86 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00CDF72071E94B1A6F2FFF9797F5C788 /* Debug */ = {
+		00FAC6EECF0AB7E72676BFDD26C52A46 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7551C60B6283DDE1EC785ABE82F61381 /* LUExpandableTableView.xcconfig */;
+			baseConfigurationReference = 99029B62D5C7519A9104A83F3EBDE5C5 /* Pods-LUExpandableTableViewExample.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -334,26 +335,26 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LUExpandableTableView/LUExpandableTableView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LUExpandableTableView/LUExpandableTableView-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-LUExpandableTableViewExample/Pods-LUExpandableTableViewExample-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LUExpandableTableView/LUExpandableTableView.modulemap";
-				PRODUCT_MODULE_NAME = LUExpandableTableView;
-				PRODUCT_NAME = LUExpandableTableView;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LUExpandableTableViewExample/Pods-LUExpandableTableViewExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -385,8 +386,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -413,14 +412,15 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		817784A0D9C02A0C9BBBDC81852791C6 /* Debug */ = {
+		2F44371A909B8E6E2237B6A828780075 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6DFA9D5D0668E92EDCC420A55F6AEB7 /* Pods-LUExpandableTableViewExample.debug.xcconfig */;
+			baseConfigurationReference = 4CC053A5DCE2AFB8118C6B234A5F3192 /* Pods-LUExpandableTableViewExample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -445,42 +445,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B978412499BC1DBAA88BCADE8C34BC1D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36F28CF714B06CBB63A68269D185EB20 /* Pods-LUExpandableTableViewExample.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LUExpandableTableViewExample/Pods-LUExpandableTableViewExample-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LUExpandableTableViewExample/Pods-LUExpandableTableViewExample.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -488,7 +452,38 @@
 			};
 			name = Release;
 		};
-		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
+		71B72D5C4283A92CE0184A1DA5AB9183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DF67F0AEA8182AFC19597064853387D /* LUExpandableTableView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LUExpandableTableView/LUExpandableTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LUExpandableTableView/LUExpandableTableView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LUExpandableTableView/LUExpandableTableView.modulemap";
+				PRODUCT_MODULE_NAME = LUExpandableTableView;
+				PRODUCT_NAME = LUExpandableTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -520,8 +515,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -543,14 +536,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		D4549F623A647D27BE0C23BFBF215C26 /* Release */ = {
+		E40841E7C25A2E9A1D1C7291161CF594 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7551C60B6283DDE1EC785ABE82F61381 /* LUExpandableTableView.xcconfig */;
+			baseConfigurationReference = 1DF67F0AEA8182AFC19597064853387D /* LUExpandableTableView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -572,7 +567,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -584,34 +578,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
-				C4EAA84F44D044E108500A81C635F21E /* Release */,
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39B063BBD23DAA2956B4DE56D053D9DD /* Build configuration list for PBXNativeTarget "LUExpandableTableView" */ = {
+		97DACF2B2F79C660218300281968F936 /* Build configuration list for PBXNativeTarget "LUExpandableTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00CDF72071E94B1A6F2FFF9797F5C788 /* Debug */,
-				D4549F623A647D27BE0C23BFBF215C26 /* Release */,
+				71B72D5C4283A92CE0184A1DA5AB9183 /* Debug */,
+				E40841E7C25A2E9A1D1C7291161CF594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F386945D9E39EBDF38DC27CB80C3714E /* Build configuration list for PBXNativeTarget "Pods-LUExpandableTableViewExample" */ = {
+		B7B51225C01B3D19C8F466818A2B9701 /* Build configuration list for PBXNativeTarget "Pods-LUExpandableTableViewExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				817784A0D9C02A0C9BBBDC81852791C6 /* Debug */,
-				B978412499BC1DBAA88BCADE8C34BC1D /* Release */,
+				00FAC6EECF0AB7E72676BFDD26C52A46 /* Debug */,
+				2F44371A909B8E6E2237B6A828780075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
