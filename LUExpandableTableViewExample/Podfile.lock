@@ -1,5 +1,5 @@
 PODS:
-  - LUExpandableTableView (4.1.0)
+  - LUExpandableTableView (5.0.0)
 
 DEPENDENCIES:
   - LUExpandableTableView (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LUExpandableTableView: 018fbd452e6bd5ce16c013e004ef37599e90c92d
+  LUExpandableTableView: 710ed7e7d55d0b58d61c95561bd9ecbf39692010
 
 PODFILE CHECKSUM: 9b600d15802257013f5d06cf9b9a40f1f786ac74
 
-COCOAPODS: 1.7.0.beta.2
+COCOAPODS: 1.7.0.beta.3

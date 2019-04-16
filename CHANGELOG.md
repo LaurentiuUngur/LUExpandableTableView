@@ -1,5 +1,9 @@
 # Change Log
 
+## [5.0.0](https://github.com/LaurentiuUngur/LUExpandableTableView/releases/tag/5.0.0)
+
+- Swift 5 and Xcode 10.2 support
+
 ## [4.1.0](https://github.com/LaurentiuUngur/LUExpandableTableView/releases/tag/4.0.0)
 
 - Add  `expandableTableView(:, viewForFooterInSection:)` delegate function

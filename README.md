@@ -6,7 +6,7 @@
 A subclass of `UITableView` with expandable and collapsible sections
 
 [![Build Status](http://img.shields.io/travis/LaurentiuUngur/LUExpandableTableView/master.svg?style=flat)](https://travis-ci.org/LaurentiuUngur/LUExpandableTableView)
-![Swift 4](https://img.shields.io/badge/Swift-4-yellow.svg)
+![Swift 5](https://img.shields.io/badge/Swift-5-yellow.svg)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![Pod Version](http://img.shields.io/cocoapods/v/LUExpandableTableView.svg?style=flat)](https://cocoapods.org/pods/LUExpandableTableView/)
@@ -27,7 +27,7 @@ A subclass of `UITableView` with expandable and collapsible sections
 $ sudo gem install cocoapods
 ```
 
-> CocoaPods 1.6.0+ is required.
+> CocoaPods 1.7.0+ is required.
 
 To integrate `LUExpandableTableView` into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
@@ -52,7 +52,7 @@ $ pod install
 You can use [Carthage](https://github.com/Carthage/Carthage) to install `LUExpandableTableView` by adding it to your `Cartfile`:
 
 ```
-github "LaurentiuUngur/LUExpandableTableView" ~> 4.0
+github "LaurentiuUngur/LUExpandableTableView" ~> 5.0
 ```
 
 Then run `carthage update`.
@@ -64,7 +64,7 @@ If this is your first time using Carthage in the project, you'll need to go thro
 To integrate using Apple's [Swift Package Manager](https://swift.org/package-manager), add the following as a dependency to your `Package.swift`:
 
 ```Swift
-.Package(url: "https://githubLaurentiuUngur/LUExpandableTableView", majorVersion: 4)
+.Package(url: "https://githubLaurentiuUngur/LUExpandableTableView", majorVersion: 5)
 ```
 
 Here's an example of `PackageDescription`:
@@ -74,7 +74,7 @@ import PackageDescription
 
 let package = Package(name: "MyApp",
     dependencies: [
-        .Package(url: "https://github.com/LaurentiuUngur/LUExpandableTableView", majorVersion: 4)
+        .Package(url: "https://github.com/LaurentiuUngur/LUExpandableTableView", majorVersion: 5)
     ])
 ```
 
@@ -186,8 +186,8 @@ extension ViewController: LUExpandableTableViewDelegate {
 
 ## Requirements
 
-- Xcode 10.0+
-- Swift 4.2+
+- Xcode 10.2+
+- Swift 5.0+
 - iOS 9.0+
 
 ## Author
