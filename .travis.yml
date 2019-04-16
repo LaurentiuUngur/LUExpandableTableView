@@ -10,7 +10,7 @@ before_install:
     - env
     - locale
     - gem install cocoapods --pre
-    - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+    - gem install xcpretty
     - pod --version
     - pod setup --silent
     - pod repo update --silent
