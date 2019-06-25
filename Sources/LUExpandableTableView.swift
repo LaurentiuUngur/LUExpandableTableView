@@ -145,6 +145,31 @@ open class LUExpandableTableView: UITableView {
         reloadSections(IndexSet(goodIndexes), with: animation)
         endUpdates()
     }
+    
+    // MARK: - Data Source Proxy
+    
+    public weak var dataSourceProxy: UITableViewDataSource? {
+        didSet {
+            // Reset data source to refresh cached responders
+            dataSource = nil
+            dataSource = self
+        }
+    }
+    
+    // MARK: - NSObjectProtocol
+    
+    override open func responds(to aSelector: Selector!) -> Bool {
+        return super.responds(to: aSelector) || (dataSourceProxy != nil ? dataSourceProxy!.responds(to: aSelector) : false)
+    }
+    
+    override open func forwardingTarget(for aSelector: Selector!) -> Any? {
+        if let delegateProxy = dataSourceProxy, delegateProxy.responds(to: aSelector) {
+            return delegateProxy
+        } else {
+            return super.forwardingTarget(for: aSelector)
+        }
+    }
+    
 }
 
 // MARK: - UITableViewDelegate
