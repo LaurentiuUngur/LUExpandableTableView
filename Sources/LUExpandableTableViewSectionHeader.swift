@@ -21,7 +21,7 @@ open class LUExpandableTableViewSectionHeader: UITableViewHeaderFooterView {
 }
 
 /// The delegate of a `LUExpandableTableViewSectionHeader` object must adopt the `LUExpandableTableViewSectionHeaderDelegate` protocol.
-public protocol LUExpandableTableViewSectionHeaderDelegate: class {
+public protocol LUExpandableTableViewSectionHeaderDelegate: AnyObject {
     /** Tells the delegate that the specified section header should expand or collapse
      
     - Parameters:

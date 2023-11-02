@@ -1,5 +1,11 @@
 # Change Log
 
+## [6.0.0](https://github.com/LaurentiuUngur/LUExpandableTableView/releases/tag/6.0.0)
+
+- Swift 5.9 and Xcode 15 support
+- Drop Carthage support
+- Drop support below iOS 13
+
 ## [5.0.0](https://github.com/LaurentiuUngur/LUExpandableTableView/releases/tag/5.0.0)
 
 - Swift 5 and Xcode 10.2 support

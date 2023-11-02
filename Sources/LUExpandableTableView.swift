@@ -17,18 +17,13 @@ open class LUExpandableTableView: UITableView {
     /// The object that acts as the delegate of the expandable table view
     public weak var expandableTableViewDelegate: LUExpandableTableViewDelegate?
     
-    /// The `UITableViewRowAnimation` animation used for showing/hiding rows when expand/collapse occurs. Default value is `fade`
-    public var animation: UITableView.RowAnimation = .fade
-    
     /** The object that acts as the data source of the table view.
      
     - Precondition: `expandableTableViewDataSource` should be used in order to configure data source
     */
     open override var dataSource: UITableViewDataSource? {
         willSet {
-            guard let newValue = newValue else {
-                return
-            }
+            guard let newValue else { return }
             
             guard newValue is LUExpandableTableView else {
                 preconditionFailure("You must use expandableTableViewDataSource property instead of dataSource property in order to set \(newValue.self) as data source")
@@ -42,9 +37,7 @@ open class LUExpandableTableView: UITableView {
     */
     open override var delegate: UITableViewDelegate? {
         willSet {
-            guard let newValue = newValue else {
-                return
-            }
+            guard let newValue else { return }
             
             guard newValue is LUExpandableTableView else {
                 preconditionFailure("You must use expandableTableViewDelegate property instead of delegate property in order to set \(newValue.self) as delegate")
@@ -101,7 +94,7 @@ open class LUExpandableTableView: UITableView {
     - Returns: `true` if the section at given index is expanded, otherwise `false`
     */
     public func isExpandedSection(at index: Int) -> Bool {
-        return expandedSections.contains(index)
+        expandedSections.contains(index)
     }
 
     /** A function that expands sections at given indexes
@@ -141,9 +134,7 @@ open class LUExpandableTableView: UITableView {
             }
         }
 
-        beginUpdates()
-        reloadSections(IndexSet(goodIndexes), with: animation)
-        endUpdates()
+        reloadData()
     }
 }
 
@@ -179,7 +170,7 @@ extension LUExpandableTableView: UITableViewDelegate {
     - Returns: A view object to be displayed in the footer of section .
     */
     public func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
-        return expandableTableViewDelegate?.expandableTableView(self, viewForFooterInSection: section)
+        expandableTableViewDelegate?.expandableTableView(self, viewForFooterInSection: section)
     }
 
     /** Tells the delegate that the specified row is now selected.
@@ -201,7 +192,7 @@ extension LUExpandableTableView: UITableViewDelegate {
     - Returns: A nonnegative floating-point value that specifies the height (in points) that row should be.
     */
     public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return expandableTableViewDelegate?.expandableTableView(self, heightForRowAt: indexPath) ?? UITableView.automaticDimension
+        expandableTableViewDelegate?.expandableTableView(self, heightForRowAt: indexPath) ?? UITableView.automaticDimension
     }
 
     /** Asks the delegate for the height to use for the header of a particular section.
@@ -213,7 +204,7 @@ extension LUExpandableTableView: UITableViewDelegate {
     - Returns: A nonnegative floating-point value that specifies the height (in points) of the header for section.
     */
     public func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return expandableTableViewDelegate?.expandableTableView(self, heightForHeaderInSection: section) ?? UITableView.automaticDimension
+        expandableTableViewDelegate?.expandableTableView(self, heightForHeaderInSection: section) ?? UITableView.automaticDimension
     }
 
     /** Asks the delegate for the height to use for the footer of a particular section.
@@ -225,7 +216,7 @@ extension LUExpandableTableView: UITableViewDelegate {
     - Returns: A nonnegative floating-point value that specifies the height (in points) of the footer for section.
     */
     public func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        return expandableTableViewDelegate?.expandableTableView(self, heightForFooterInSection: section) ?? UITableView.automaticDimension
+        expandableTableViewDelegate?.expandableTableView(self, heightForFooterInSection: section) ?? UITableView.automaticDimension
     }
 
     /** Tells the delegate the table view is about to draw a cell for a particular row.
@@ -263,7 +254,7 @@ extension LUExpandableTableView: UITableViewDataSource {
     - Returns: The number of rows in `section`.
     */
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return expandedSections.contains(section) ? (expandableTableViewDataSource?.expandableTableView(self, numberOfRowsInSection: section) ?? 0) : 0
+        expandedSections.contains(section) ? (expandableTableViewDataSource?.expandableTableView(self, numberOfRowsInSection: section) ?? 0) : 0
     }
 
     /** Asks the data source to return the number of sections in the table view.
@@ -273,7 +264,7 @@ extension LUExpandableTableView: UITableViewDataSource {
     - Returns: The number of sections in `tableView`. The default value is `1`.
     */
     public func numberOfSections(in tableView: UITableView) -> Int {
-        return expandableTableViewDataSource?.numberOfSections(in: self) ?? 0
+        expandableTableViewDataSource?.numberOfSections(in: self) ?? 0
     }
 
     /** Asks the data source for a cell to insert in a particular location of the table view.
@@ -285,7 +276,7 @@ extension LUExpandableTableView: UITableViewDataSource {
     - Returns: An object inheriting from `UITableViewCell` that the table view can use for the specified row. An assertion is raised if you return `nil`.
     */
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return expandableTableViewDataSource?.expandableTableView(self, cellForRowAt: indexPath) ?? UITableViewCell()
+        expandableTableViewDataSource?.expandableTableView(self, cellForRowAt: indexPath) ?? UITableViewCell()
     }
 }
 
@@ -305,14 +296,12 @@ extension LUExpandableTableView: LUExpandableTableViewSectionHeaderDelegate {
             expandedSections.insert(section)
         }
         
-        beginUpdates()
-        reloadSections(IndexSet(integer: section), with: animation)
-        endUpdates()
+        reloadData()
         
         let sectionHeaderRect = rectForHeader(inSection: section)
         
         if !bounds.contains(sectionHeaderRect) {
-            scrollRectToVisible(sectionHeaderRect, animated: true)
+            scrollRectToVisible(sectionHeaderRect, animated: false)
         }
     }
 

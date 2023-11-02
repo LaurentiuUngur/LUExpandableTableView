@@ -9,7 +9,7 @@
 import UIKit
 
 /// The delegate of a `LUExpandableTableView` object must adopt the `LUExpandableTableViewDelegate` protocol.
-public protocol LUExpandableTableViewDelegate: class {
+public protocol LUExpandableTableViewDelegate: AnyObject {
     /** Asks the delegate for a view object to display in the footer of the specified section of the table view.
 
     - Parameters:

@@ -23,19 +23,18 @@ final class ViewController: UIViewController {
         super.viewDidLoad()
         
         view.addSubview(expandableTableView)
-        
+        expandableTableView.translatesAutoresizingMaskIntoConstraints = false
+        expandableTableView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        expandableTableView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        expandableTableView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+        expandableTableView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+
         expandableTableView.register(MyTableViewCell.self, forCellReuseIdentifier: cellReuseIdentifier)
-        expandableTableView.register(UINib(nibName: "MyExpandableTableViewSectionHeader", bundle: Bundle.main), forHeaderFooterViewReuseIdentifier: sectionHeaderReuseIdentifier)
+        expandableTableView.register(UINib(nibName: "MyExpandableTableViewSectionHeader", bundle: Bundle.main), 
+                                     forHeaderFooterViewReuseIdentifier: sectionHeaderReuseIdentifier)
         
         expandableTableView.expandableTableViewDataSource = self
         expandableTableView.expandableTableViewDelegate = self
-    }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        
-        expandableTableView.frame = view.bounds
-        expandableTableView.frame.origin.y += 20
     }
 }
 
